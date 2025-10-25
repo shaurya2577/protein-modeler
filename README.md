@@ -2,6 +2,27 @@
 
 In this project for CalHacks 2025, we train an ML classifier model to predict whether or not 2 proteins interact favorably with each other.
 
+## Getting started
+
+To get started, first set up the virtual environment:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Then you can install the dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+To prepare the dataset, run the following script:
+
+```
+python -m protein_modeler.data_prepare
+```
+
 ## Dataset (TBD)
 
 ### Bright Data
@@ -18,3 +39,8 @@ The dataset we used is a subset of the InAct cancer curated dataset. We used the
 - Interaction type is positive and negative
 - Interactions only between proteins
 - Interaction type is physical association
+
+
+## Acknowledgements
+
+Thanks to [upimapi](https://github.com/iquasere/UPIMAPI) for a helpful batch query API.
