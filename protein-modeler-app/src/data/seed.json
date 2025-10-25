@@ -1,0 +1,360 @@
+{
+  "diseases": [
+    {
+      "id": "RA",
+      "name": "Rheumatoid Arthritis",
+      "category": "Autoimmune",
+      "burden_score": 0.8,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK441999/"]
+    },
+    {
+      "id": "CD",
+      "name": "Crohn's Disease",
+      "category": "Autoimmune",
+      "burden_score": 0.7,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK470312/"]
+    },
+    {
+      "id": "PSO",
+      "name": "Psoriasis",
+      "category": "Autoimmune",
+      "burden_score": 0.6,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK448194/"]
+    },
+    {
+      "id": "AD",
+      "name": "Alzheimer's Disease",
+      "category": "Neurodegenerative",
+      "burden_score": 0.9,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK499922/"]
+    },
+    {
+      "id": "T2D",
+      "name": "Type 2 Diabetes",
+      "category": "Metabolic",
+      "burden_score": 0.8,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK513253/"]
+    },
+    {
+      "id": "CVD",
+      "name": "Cardiovascular Disease",
+      "category": "Cardiovascular",
+      "burden_score": 0.9,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK535419/"]
+    },
+    {
+      "id": "COPD",
+      "name": "Chronic Obstructive Pulmonary Disease",
+      "category": "Respiratory",
+      "burden_score": 0.7,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK559281/"]
+    },
+    {
+      "id": "MS",
+      "name": "Multiple Sclerosis",
+      "category": "Autoimmune",
+      "burden_score": 0.6,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK499849/"]
+    },
+    {
+      "id": "IBD",
+      "name": "Inflammatory Bowel Disease",
+      "category": "Autoimmune",
+      "burden_score": 0.7,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK470312/"]
+    },
+    {
+      "id": "OA",
+      "name": "Osteoarthritis",
+      "category": "Musculoskeletal",
+      "burden_score": 0.5,
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK482326/"]
+    }
+  ],
+  "proteins": [
+    {
+      "id": "TNF",
+      "uniprot_id": "P01375",
+      "symbol": "TNF",
+      "name": "Tumor Necrosis Factor",
+      "family": "Cytokine",
+      "pathways": ["NF-kappa B signaling", "Apoptosis"],
+      "sources": ["https://www.uniprot.org/uniprot/P01375"]
+    },
+    {
+      "id": "IL6",
+      "uniprot_id": "P05231",
+      "symbol": "IL6",
+      "name": "Interleukin-6",
+      "family": "Cytokine",
+      "pathways": ["JAK-STAT signaling", "Inflammation"],
+      "sources": ["https://www.uniprot.org/uniprot/P05231"]
+    },
+    {
+      "id": "VEGFA",
+      "uniprot_id": "P15692",
+      "symbol": "VEGFA",
+      "name": "Vascular Endothelial Growth Factor A",
+      "family": "Growth Factor",
+      "pathways": ["Angiogenesis", "VEGF signaling"],
+      "sources": ["https://www.uniprot.org/uniprot/P15692"]
+    },
+    {
+      "id": "APP",
+      "uniprot_id": "P05067",
+      "symbol": "APP",
+      "name": "Amyloid Precursor Protein",
+      "family": "Membrane Protein",
+      "pathways": ["Amyloid processing", "Neuronal development"],
+      "sources": ["https://www.uniprot.org/uniprot/P05067"]
+    },
+    {
+      "id": "INSR",
+      "uniprot_id": "P06213",
+      "symbol": "INSR",
+      "name": "Insulin Receptor",
+      "family": "Receptor Tyrosine Kinase",
+      "pathways": ["Insulin signaling", "Glucose metabolism"],
+      "sources": ["https://www.uniprot.org/uniprot/P06213"]
+    },
+    {
+      "id": "ACE2",
+      "uniprot_id": "Q9BYF1",
+      "symbol": "ACE2",
+      "name": "Angiotensin-converting enzyme 2",
+      "family": "Enzyme",
+      "pathways": ["Renin-angiotensin system", "Viral entry"],
+      "sources": ["https://www.uniprot.org/uniprot/Q9BYF1"]
+    },
+    {
+      "id": "IL1B",
+      "uniprot_id": "P01584",
+      "symbol": "IL1B",
+      "name": "Interleukin-1 beta",
+      "family": "Cytokine",
+      "pathways": ["Inflammation", "NF-kappa B signaling"],
+      "sources": ["https://www.uniprot.org/uniprot/P01584"]
+    },
+    {
+      "id": "IFNG",
+      "uniprot_id": "P01579",
+      "symbol": "IFNG",
+      "name": "Interferon gamma",
+      "family": "Cytokine",
+      "pathways": ["Immune response", "JAK-STAT signaling"],
+      "sources": ["https://www.uniprot.org/uniprot/P01579"]
+    }
+  ],
+  "associations": [
+    {
+      "id": "RA-TNF",
+      "disease_id": "RA",
+      "protein_id": "TNF",
+      "association_strength": 0.9,
+      "evidence_text": "TNF-alpha is a key pro-inflammatory cytokine in rheumatoid arthritis pathogenesis",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345678"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK441999/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "CD-TNF",
+      "disease_id": "CD",
+      "protein_id": "TNF",
+      "association_strength": 0.8,
+      "evidence_text": "TNF-alpha plays a central role in Crohn's disease inflammation",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345679"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK470312/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "PSO-TNF",
+      "disease_id": "PSO",
+      "protein_id": "TNF",
+      "association_strength": 0.7,
+      "evidence_text": "TNF-alpha is elevated in psoriatic lesions and contributes to inflammation",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345680"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK448194/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "MS-TNF",
+      "disease_id": "MS",
+      "protein_id": "TNF",
+      "association_strength": 0.6,
+      "evidence_text": "TNF-alpha contributes to demyelination in multiple sclerosis",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345681"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK499849/"],
+      "maturity": "trial",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "IBD-TNF",
+      "disease_id": "IBD",
+      "protein_id": "TNF",
+      "association_strength": 0.8,
+      "evidence_text": "TNF-alpha is a key mediator in inflammatory bowel disease",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345682"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK470312/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "RA-IL6",
+      "disease_id": "RA",
+      "protein_id": "IL6",
+      "association_strength": 0.7,
+      "evidence_text": "IL-6 is elevated in rheumatoid arthritis and contributes to joint damage",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345683"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK441999/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "CD-IL6",
+      "disease_id": "CD",
+      "protein_id": "IL6",
+      "association_strength": 0.6,
+      "evidence_text": "IL-6 levels are elevated in Crohn's disease patients",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345684"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK470312/"],
+      "maturity": "trial",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "AD-APP",
+      "disease_id": "AD",
+      "protein_id": "APP",
+      "association_strength": 0.9,
+      "evidence_text": "APP processing leads to amyloid-beta formation in Alzheimer's disease",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345685"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK499922/"],
+      "maturity": "none",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "T2D-INSR",
+      "disease_id": "T2D",
+      "protein_id": "INSR",
+      "association_strength": 0.8,
+      "evidence_text": "Insulin resistance is a hallmark of type 2 diabetes",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345686"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK513253/"],
+      "maturity": "approved",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "CVD-VEGFA",
+      "disease_id": "CVD",
+      "protein_id": "VEGFA",
+      "association_strength": 0.5,
+      "evidence_text": "VEGF-A is involved in angiogenesis and vascular repair",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345687"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK535419/"],
+      "maturity": "trial",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "COPD-IL1B",
+      "disease_id": "COPD",
+      "protein_id": "IL1B",
+      "association_strength": 0.6,
+      "evidence_text": "IL-1beta contributes to chronic inflammation in COPD",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345688"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK559281/"],
+      "maturity": "none",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "MS-IFNG",
+      "disease_id": "MS",
+      "protein_id": "IFNG",
+      "association_strength": 0.7,
+      "evidence_text": "IFN-gamma is involved in MS pathogenesis and demyelination",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345689"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK499849/"],
+      "maturity": "none",
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": "OA-IL1B",
+      "disease_id": "OA",
+      "protein_id": "IL1B",
+      "association_strength": 0.4,
+      "evidence_text": "IL-1beta contributes to cartilage degradation in osteoarthritis",
+      "citations": ["https://pubmed.ncbi.nlm.nih.gov/12345690"],
+      "sources": ["https://www.ncbi.nlm.nih.gov/books/NBK482326/"],
+      "maturity": "none",
+      "last_updated": "2024-01-15"
+    }
+  ],
+  "therapies": [
+    {
+      "id": "adalimumab",
+      "name": "Adalimumab",
+      "target_protein_id": "TNF",
+      "status": "approved",
+      "drugbank_id": "DB00051",
+      "chembl_id": "CHEMBL1201580",
+      "indications": ["Rheumatoid Arthritis", "Crohn's Disease", "Psoriasis"],
+      "sources": ["https://www.drugbank.ca/drugs/DB00051"]
+    },
+    {
+      "id": "tocilizumab",
+      "name": "Tocilizumab",
+      "target_protein_id": "IL6",
+      "status": "approved",
+      "drugbank_id": "DB06273",
+      "chembl_id": "CHEMBL1201581",
+      "indications": ["Rheumatoid Arthritis"],
+      "sources": ["https://www.drugbank.ca/drugs/DB06273"]
+    },
+    {
+      "id": "insulin",
+      "name": "Insulin",
+      "target_protein_id": "INSR",
+      "status": "approved",
+      "drugbank_id": "DB00030",
+      "chembl_id": "CHEMBL1201582",
+      "indications": ["Type 2 Diabetes"],
+      "sources": ["https://www.drugbank.ca/drugs/DB00030"]
+    }
+  ],
+  "trials": [
+    {
+      "id": "trial-1",
+      "nct_id": "NCT01234567",
+      "phase": "Phase II",
+      "status": "Recruiting",
+      "condition": "Multiple Sclerosis",
+      "target_protein_id": "TNF",
+      "start_date": "2024-01-01",
+      "link": "https://clinicaltrials.gov/study/NCT01234567",
+      "sources": ["https://clinicaltrials.gov/"]
+    },
+    {
+      "id": "trial-2",
+      "nct_id": "NCT01234568",
+      "phase": "Phase III",
+      "status": "Active",
+      "condition": "Alzheimer's Disease",
+      "target_protein_id": "APP",
+      "start_date": "2023-06-01",
+      "link": "https://clinicaltrials.gov/study/NCT01234568",
+      "sources": ["https://clinicaltrials.gov/"]
+    },
+    {
+      "id": "trial-3",
+      "nct_id": "NCT01234569",
+      "phase": "Phase I",
+      "status": "Completed",
+      "condition": "COPD",
+      "target_protein_id": "IL1B",
+      "start_date": "2023-01-01",
+      "link": "https://clinicaltrials.gov/study/NCT01234569",
+      "sources": ["https://clinicaltrials.gov/"]
+    }
+  ]
+}

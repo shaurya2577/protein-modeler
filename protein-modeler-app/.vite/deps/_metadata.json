@@ -1,0 +1,145 @@
+{
+  "hash": "a64aa799",
+  "configHash": "dbe2f820",
+  "lockfileHash": "cdcc364d",
+  "browserHash": "a6a5db3a",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "0289c259",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ed51bfd5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "71635da8",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "b313c0cc",
+      "needsInterop": false
+    },
+    "zod": {
+      "src": "../../node_modules/zod/index.js",
+      "file": "zod.js",
+      "fileHash": "f4983990",
+      "needsInterop": false
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "4c946571",
+      "needsInterop": false
+    },
+    "zustand/middleware": {
+      "src": "../../node_modules/zustand/esm/middleware.mjs",
+      "file": "zustand_middleware.js",
+      "fileHash": "90ebc3f4",
+      "needsInterop": false
+    },
+    "fuse.js": {
+      "src": "../../node_modules/fuse.js/dist/fuse.mjs",
+      "file": "fuse__js.js",
+      "fileHash": "adf1faf0",
+      "needsInterop": false
+    },
+    "minisearch": {
+      "src": "../../node_modules/minisearch/dist/es/index.js",
+      "file": "minisearch.js",
+      "fileHash": "b37a8a5e",
+      "needsInterop": false
+    },
+    "@tensorflow/tfjs": {
+      "src": "../../node_modules/@tensorflow/tfjs/dist/index.js",
+      "file": "@tensorflow_tfjs.js",
+      "fileHash": "fa272857",
+      "needsInterop": false
+    },
+    "@tensorflow-models/universal-sentence-encoder": {
+      "src": "../../node_modules/@tensorflow-models/universal-sentence-encoder/dist/universal-sentence-encoder.esm.js",
+      "file": "@tensorflow-models_universal-sentence-encoder.js",
+      "fileHash": "1b23804b",
+      "needsInterop": false
+    },
+    "cytoscape": {
+      "src": "../../node_modules/cytoscape/dist/cytoscape.esm.mjs",
+      "file": "cytoscape.js",
+      "fileHash": "47d9c495",
+      "needsInterop": false
+    },
+    "cytoscape-cose-bilkent": {
+      "src": "../../node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js",
+      "file": "cytoscape-cose-bilkent.js",
+      "fileHash": "6d445e0c",
+      "needsInterop": true
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/esm/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "4ef40b70",
+      "needsInterop": false
+    },
+    "@mui/material/CssBaseline": {
+      "src": "../../node_modules/@mui/material/esm/CssBaseline/index.js",
+      "file": "@mui_material_CssBaseline.js",
+      "fileHash": "7e820c23",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/esm/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "327d0e7a",
+      "needsInterop": false
+    },
+    "@mui/icons-material": {
+      "src": "../../node_modules/@mui/icons-material/esm/index.js",
+      "file": "@mui_icons-material.js",
+      "fileHash": "7488bb2b",
+      "needsInterop": false
+    },
+    "zustand/shallow": {
+      "src": "../../node_modules/zustand/esm/shallow.mjs",
+      "file": "zustand_shallow.js",
+      "fileHash": "05d50cb7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-7UPRO5VX": {
+      "file": "chunk-7UPRO5VX.js"
+    },
+    "chunk-SDHFZXEN": {
+      "file": "chunk-SDHFZXEN.js"
+    },
+    "chunk-ZZK6YRDR": {
+      "file": "chunk-ZZK6YRDR.js"
+    },
+    "chunk-KRXBSRX2": {
+      "file": "chunk-KRXBSRX2.js"
+    },
+    "chunk-WFKEC22Z": {
+      "file": "chunk-WFKEC22Z.js"
+    },
+    "chunk-RI3ATZS2": {
+      "file": "chunk-RI3ATZS2.js"
+    },
+    "chunk-JF7IVAG4": {
+      "file": "chunk-JF7IVAG4.js"
+    },
+    "chunk-4BPZ7PBZ": {
+      "file": "chunk-4BPZ7PBZ.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
